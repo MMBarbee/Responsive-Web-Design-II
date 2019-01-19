@@ -215,7 +215,8 @@ footer {
 /* ---- */
 
     .main-content .middle-img {
-       width: 100%;
+       
+       width: 98%;
     }
 
     .main-content {
@@ -301,5 +302,6 @@ footer {
 
     .contact {
         margin: 20px;
+        font-size: 1.5rem;
     }
 }
