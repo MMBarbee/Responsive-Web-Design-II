@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
-/* Header Styles */
+/* Header  */
 
 header {
     width: 100%;
@@ -94,7 +94,7 @@ header .logo {
     margin: 28px 0 0 91px;
 }
 
-/* Call To Action (CTA) Styles */
+
 
 .cta {
     display: flex;
@@ -156,20 +156,20 @@ header .logo {
     padding-right: 20px;
 }
 
-/* Contact Styles */
+/* Contact */
 
 .contact p {
     margin: 15px 0;
 }
 
-/* Footer Styles */
+/* Footer  */
 
 footer {
     text-align: center;
     margin: 40px 0 20px;
 }
 
-/* Tablet */
+/* Tablet Navigation*/
 @media (max-width: 800px) {
 
     .container {
@@ -181,15 +181,21 @@ footer {
     }
   
     header nav {
-        width: 768px;
-        padding: 0 30px;
+        width:90%;
+        margin: 0 auto;
     }
 
     header .logo {
-        order: -1;
-        display: block;
-        margin: 30px auto 0;
+        /* Having problems justifying logo */
     }
+
+    div .logo{
+        
+    }
+
+
+
+/* Header section */
 
     .cta {
         justify-content: center;
@@ -202,6 +208,8 @@ footer {
     .cta img {
         display: none;
     }
+
+/* ---- */
 
     .main-content .middle-img {
        width: 100%;
