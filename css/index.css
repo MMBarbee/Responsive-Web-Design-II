@@ -266,7 +266,7 @@ footer {
     }
 
     .cta {
-        margin-top: 50px;
+        margin-top: 15%;
         flex-flow: column;
         align-items: center;
     }
@@ -278,17 +278,24 @@ footer {
     .main-content .top-content {
         justify-content: space-around;
         flex-direction: column;
-        height: 300px;
+        margin: 2%;
+        
     }
 
     .main-content .bottom-content {
         flex-wrap: wrap;
         align-content: space-between;
-        height: 440px;
+        margin: 2%;
     }
 
     .text-content {
         margin: 0;
+        padding-bottom: 4%;
+    }
+
+    .middle-img{
+        width: 95%;
+        padding: 2%;
     }
 
     .contact {
